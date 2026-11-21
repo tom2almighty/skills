@@ -39,7 +39,7 @@ description: >-
 - 主题：项目已有主题系统时必须兼容暗色；新项目默认配置亮色/暗色/跟随系统（Shadcn 官方 ThemeProvider 或等价方案）。
 - 圆角与阴影用默认 Token（`rounded-md`/`rounded-lg`/`shadow-sm`）；不使用装饰性的边框和阴影，非浮层容器不加重阴影。
 - 尺度：优先 Tailwind 刻度与 T-shirt 字号（`text-xs`、`text-sm`）；Tailwind v4 下用动态倍数（`w-13`）而不是 `w-[52px]`。Canvas/SVG 动态坐标等确需任意值的场景除外。
-- 图标用 Lucide / Simple Icons，国旗用按需引入的 `country-flag-icons/react/3x2`；不用 Emoji 代替图标。
+- 图标用 Lucide / Simple Icons，国旗按需引入 `country-flag-icons/react/3x2` 或 `country-flag-emoji-polyfill`；不用 Emoji 代替图标。
 - 标题、说明、占位符只陈述功能与状态，不用空洞修饰词。
 
 ## 4. 不可省略的交互底线
